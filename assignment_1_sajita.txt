@@ -1,0 +1,24 @@
+1.  function Person(name){
+    this.name=name;
+    }
+    Person.prototype.prefixName=function (arr){
+    return arr.map((x)=>{
+         return this.name+x ;
+     });
+
+   };
+
+
+2.  let obj={first:"sajita",last:"sahu",dob:"30/10/1993"}
+    let {first:f,last:l,dob:d}=obj;
+    function(first,last,dob){
+       console.log("my full name is"+ first + last +"my date of birth is" +dob);
+        var fullname='my name is ${first} ${last}';
+
+    }
+
+3.  var myArray=["rakesh","esha","rajesh","sita","amar","gits"] 
+
+    for (var value of myArray) {
+      console.log(value);
+    }
